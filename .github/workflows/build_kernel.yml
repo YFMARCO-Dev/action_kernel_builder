@@ -6,11 +6,11 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel source URL'
         required: true
-        default: 'https://github.com/koko-07870/kernel_samsung_sm7125.git'
+        default: 'https://github.com/YFMARCO-Dev/kernel-test2.git'
       KERNEL_BRANCH:
         description: 'Kernel branch'
         required: true
-        default: 'fifteen'
+        default: 'gta4ljt'
       KERNEL_NAME:
         description: 'Kernel/zip name'
         required: true
@@ -18,7 +18,7 @@ on:
       CONFIG_FILE:
         description: 'Config file (You can put multiple configs separated by space)'
         required: true
-        default: 'vendor/pixelos-a52q_defconfig vendor/debugfs.config'
+        default: 'gta4l_mea_jt_defconfig vendor/debugfs.config'
       TOOLCHAIN_URL:
         description: "Clone URL of your toolchain"
         required: true
@@ -26,7 +26,7 @@ on:
       ANYKERNEL:
         description: "Clone URL of your AnyKernel"
         required: true
-        default: 'https://github.com/koko-07870/AnyKernel3.git -b master'
+        default: 'https://github.com/YFMARCO-Dev/AnyKernel3.git -b master'
 
 jobs:
   Build_Kernel:
